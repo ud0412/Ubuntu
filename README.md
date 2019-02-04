@@ -27,3 +27,11 @@
   - 다시 메뉴와 창에 사용할 언어를 한국어로 변경하고 logout 후 login
   - 폴더 이름 변경 창이 뜨면 변경하지 않음을 선택
 
+* Ubuntu 설치 USB 만들기
+  - 기본 설치된 Startup Disk Creator 사용
+
+* 화면 캡쳐
+  - 기본 설치된 '스크린샷' 이용
+
+* torrent client
+  - 기본 설치된 '트랜스미션' 이용
