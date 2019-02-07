@@ -35,3 +35,7 @@
 
 * torrent client
   - 기본 설치된 '트랜스미션' 이용
+
+* 손님(Guest) 계정 삭제
+  <pre><code>sudo sh -c 'printf "[SeatDefaults]\nallow-guest=false\n" > /etc/lightdm/lightdm.conf.d/50-no-guest.conf'</code></pre>
+  
