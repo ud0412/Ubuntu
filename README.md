@@ -39,3 +39,6 @@
 * 손님(Guest) 계정 삭제
   <pre><code>sudo sh -c 'printf "[SeatDefaults]\nallow-guest=false\n" > /etc/lightdm/lightdm.conf.d/50-no-guest.conf'</code></pre>
   
+* 사설 인증서를 사용하여 apt-get 이 https 로 동작하지 않을 때
+  -o Acquire::https::<site URL>::Verify-Peer=false 를 apt-get 문장 뒤에 붙여 준다.
+  ex > sudo apt-get update -o Acquire::https::packages.microsoft.com::Verify-Peer=false
